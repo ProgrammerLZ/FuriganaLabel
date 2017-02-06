@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE72A4791E48A7A0005FE39B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE72A4781E48A7A0005FE39B /* main.m */; };
+		AE72A47C1E48A7A0005FE39B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE72A47B1E48A7A0005FE39B /* AppDelegate.m */; };
+		AE72A47F1E48A7A0005FE39B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE72A47E1E48A7A0005FE39B /* ViewController.m */; };
+		AE72A4821E48A7A0005FE39B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE72A4801E48A7A0005FE39B /* Main.storyboard */; };
+		AE72A4841E48A7A0005FE39B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE72A4831E48A7A0005FE39B /* Assets.xcassets */; };
+		AE72A4871E48A7A0005FE39B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE72A4851E48A7A0005FE39B /* LaunchScreen.storyboard */; };
+		AE72A4931E48A812005FE39B /* NSString+Japanese.m in Sources */ = {isa = PBXBuildFile; fileRef = AE72A4921E48A812005FE39B /* NSString+Japanese.m */; };
+		AE72A4961E48A90D005FE39B /* AttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE72A4951E48A90D005FE39B /* AttributedLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE72A4741E48A7A0005FE39B /* FuriganaLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuriganaLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE72A4781E48A7A0005FE39B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE72A47A1E48A7A0005FE39B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE72A47B1E48A7A0005FE39B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE72A47D1E48A7A0005FE39B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE72A47E1E48A7A0005FE39B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE72A4811E48A7A0005FE39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE72A4831E48A7A0005FE39B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE72A4861E48A7A0005FE39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE72A4881E48A7A0005FE39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE72A4911E48A812005FE39B /* NSString+Japanese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Japanese.h"; sourceTree = "<group>"; };
+		AE72A4921E48A812005FE39B /* NSString+Japanese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Japanese.m"; sourceTree = "<group>"; };
+		AE72A4941E48A90D005FE39B /* AttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributedLabel.h; sourceTree = "<group>"; };
+		AE72A4951E48A90D005FE39B /* AttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE72A4711E48A7A0005FE39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE72A46B1E48A7A0005FE39B = {
+			isa = PBXGroup;
+			children = (
+				AE72A4761E48A7A0005FE39B /* FuriganaLabelDemo */,
+				AE72A4751E48A7A0005FE39B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE72A4751E48A7A0005FE39B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE72A4741E48A7A0005FE39B /* FuriganaLabelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE72A4761E48A7A0005FE39B /* FuriganaLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AE72A4941E48A90D005FE39B /* AttributedLabel.h */,
+				AE72A4951E48A90D005FE39B /* AttributedLabel.m */,
+				AE72A4911E48A812005FE39B /* NSString+Japanese.h */,
+				AE72A4921E48A812005FE39B /* NSString+Japanese.m */,
+				AE72A47A1E48A7A0005FE39B /* AppDelegate.h */,
+				AE72A47B1E48A7A0005FE39B /* AppDelegate.m */,
+				AE72A47D1E48A7A0005FE39B /* ViewController.h */,
+				AE72A47E1E48A7A0005FE39B /* ViewController.m */,
+				AE72A4801E48A7A0005FE39B /* Main.storyboard */,
+				AE72A4831E48A7A0005FE39B /* Assets.xcassets */,
+				AE72A4851E48A7A0005FE39B /* LaunchScreen.storyboard */,
+				AE72A4881E48A7A0005FE39B /* Info.plist */,
+				AE72A4771E48A7A0005FE39B /* Supporting Files */,
+			);
+			path = FuriganaLabelDemo;
+			sourceTree = "<group>";
+		};
+		AE72A4771E48A7A0005FE39B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE72A4781E48A7A0005FE39B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE72A4731E48A7A0005FE39B /* FuriganaLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE72A48B1E48A7A0005FE39B /* Build configuration list for PBXNativeTarget "FuriganaLabelDemo" */;
+			buildPhases = (
+				AE72A4701E48A7A0005FE39B /* Sources */,
+				AE72A4711E48A7A0005FE39B /* Frameworks */,
+				AE72A4721E48A7A0005FE39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuriganaLabelDemo;
+			productName = FuriganaLabelDemo;
+			productReference = AE72A4741E48A7A0005FE39B /* FuriganaLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE72A46C1E48A7A0005FE39B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "刘哲";
+				TargetAttributes = {
+					AE72A4731E48A7A0005FE39B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AE72A46F1E48A7A0005FE39B /* Build configuration list for PBXProject "FuriganaLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE72A46B1E48A7A0005FE39B;
+			productRefGroup = AE72A4751E48A7A0005FE39B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE72A4731E48A7A0005FE39B /* FuriganaLabelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE72A4721E48A7A0005FE39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE72A4871E48A7A0005FE39B /* LaunchScreen.storyboard in Resources */,
+				AE72A4841E48A7A0005FE39B /* Assets.xcassets in Resources */,
+				AE72A4821E48A7A0005FE39B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE72A4701E48A7A0005FE39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE72A4931E48A812005FE39B /* NSString+Japanese.m in Sources */,
+				AE72A47F1E48A7A0005FE39B /* ViewController.m in Sources */,
+				AE72A4961E48A90D005FE39B /* AttributedLabel.m in Sources */,
+				AE72A47C1E48A7A0005FE39B /* AppDelegate.m in Sources */,
+				AE72A4791E48A7A0005FE39B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE72A4801E48A7A0005FE39B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE72A4811E48A7A0005FE39B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE72A4851E48A7A0005FE39B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE72A4861E48A7A0005FE39B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE72A4891E48A7A0005FE39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE72A48A1E48A7A0005FE39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE72A48C1E48A7A0005FE39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FuriganaLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haierkaili.FuriganaLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE72A48D1E48A7A0005FE39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FuriganaLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haierkaili.FuriganaLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE72A46F1E48A7A0005FE39B /* Build configuration list for PBXProject "FuriganaLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE72A4891E48A7A0005FE39B /* Debug */,
+				AE72A48A1E48A7A0005FE39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE72A48B1E48A7A0005FE39B /* Build configuration list for PBXNativeTarget "FuriganaLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE72A48C1E48A7A0005FE39B /* Debug */,
+				AE72A48D1E48A7A0005FE39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE72A46C1E48A7A0005FE39B /* Project object */;
+}
